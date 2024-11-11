@@ -187,20 +187,9 @@ form button:hover {
 }
 
 footer {
-    background-color: #333; 
-    color: #fff;
-    text-align: center; 
-    padding: 20px 0; 
-    left: 0; 
-    bottom: 0; 
-    width: 100%; 
-    font-size: 16px; 
+    background-color: #19375c;
 }
 
 footer p {
-    font-size: 18px; 
+    color: fff;
 }
-
-
-
-
