@@ -1,0 +1,11 @@
+body{
+    font-family: "Playfair Display", serif;
+}
+
+nav {
+    display: flex;
+}
+
+ul{
+    display: flex;
+}

@@ -1,0 +1,17 @@
+body{
+    font-family: "Playfair Display", serif;
+}
+
+nav {
+    display: flex;
+}
+
+ul{
+    display: flex;
+    padding: 24px;
+    margin-left: auto;
+}
+
+ul li {
+    padding: 24px;
+}
