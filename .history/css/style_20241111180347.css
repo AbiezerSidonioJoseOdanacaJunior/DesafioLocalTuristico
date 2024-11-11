@@ -64,7 +64,7 @@ ul li a {
 #image-history {
     flex: 0 0 40%; /* Ocupa 25% da largura */
     padding: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #efeeeb;
 }
 
 #image-history img {
@@ -120,69 +120,48 @@ ul li a {
     margin-top: 24px;
 }
 
+/* Estilo para o formulário */
 form {
-    max-width: 600px; 
-    margin: 0 auto; 
-    padding: 20px; 
-    background-color: #f9f9f9; 
-    border-radius: 8px; 
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
-    font-family: Arial, sans-serif; 
+    max-width: 600px; /* Define uma largura máxima para o formulário */
+    margin: 0 auto; /* Centraliza o formulário na página */
+    padding: 20px; /* Adiciona um pouco de espaço interno */
+    background-color: #f9f9f9; /* Cor de fundo suave */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave ao redor */
+    font-family: Arial, sans-serif; /* Define a fonte */
 }
 
-
+/* Estilo para cada campo de input */
 form input, form textarea {
-    width: 100%; 
-    padding: 12px; 
-    margin-bottom: 15px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    font-size: 16px; 
+    width: 100%; /* Faz com que o campo ocupe toda a largura */
+    padding: 12px; /* Espaçamento interno nos campos */
+    margin-bottom: 15px; /* Espaçamento entre os campos */
+    border: 1px solid #ccc; /* Borda fina */
+    border-radius: 4px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
 }
 
 /* Estilo para o textarea */
 form textarea {
-    resize: vertical;
-    height: 120px;
+    resize: vertical; /* Permite redimensionar o campo verticalmente */
+    height: 120px; /* Altura do campo de mensagem */
 }
 
-
+/* Estilo para o botão */
 form button {
-    width: 100%; 
-    padding: 12px; 
-    background-color: #4CAF50; 
-    color: white;
-    border: none;
-    border-radius: 4px; 
-    font-size: 16px; 
-    cursor: pointer; 
-    transition: background-color 0.3s ease; 
+    width: 100%; /* O botão ocupa toda a largura */
+    padding: 12px; /* Espaçamento interno */
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda padrão */
+    border-radius: 4px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Altera o cursor para pointer */
+    transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
 }
 
+/* Efeito hover no botão */
 form button:hover {
-    background-color: #45a049; 
-}
-
-
-#information {
-    background-color: #f9f9f9; 
-    padding: 20px; 
-    border-radius: 8px; 
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
-    font-family: Arial, sans-serif; 
-    max-width: 500px; 
-    margin-left: 20px; /
-}
-
-
-#information p {
-    font-size: 16px; 
-    margin-bottom: 10px; 
-}
-
-#information b {
-    font-weight: bold; 
-    color: #4CAF50; 
-    line-height: 24px;
+    background-color: #45a049; /* Cor de fundo mais escura ao passar o mouse */
 }
 

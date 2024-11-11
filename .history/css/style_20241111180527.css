@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Playfair Display", serif;
+}
+
+nav {
+    display: flex;
+    background-color: #19375c;
+}
+
+nav img {
+    width: 116px;
+    height: 92px;
+}
+
+nav h1{
+    color:#fff;
+    padding: 24px;
+}
+
+ul{
+    display: flex;
+    padding: 24px;
+    margin-left: auto;
+}
+
+ul li {
+    padding: 24px;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;   
+}
+
+#history {
+    width: 100%;
+    height: 100%;
+    padding: 24px;
+    box-sizing: border-box;
+    
+}
+
+#about {
+    display: flex;
+    width: 100%;
+    max-width: 100vw; 
+    overflow-x: hidden;;
+    padding: 24px;
+}
+
+#text-history {
+    flex: 0 0 60%;
+    padding: 10px;
+    text-align: justify;
+    line-height: 24px;
+}
+
+#image-history {
+    flex: 0 0 40%; /* Ocupa 25% da largura */
+    padding: 10px;
+    background-color: #efeeeb;
+}
+
+#image-history img {
+    max-width: 100%;
+    height: auto;
+    padding: 16px;
+}
+#image-history p{
+    line-height: 32px;
+    padding-left: 16px;
+}
+
+#gallery{
+    width: 100%;
+    height: 100%;
+    padding: 24px;
+    box-sizing: border-box;
+
+}
+
+#fotos {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px; 
+    max-width: 100%;
+    justify-content: center; 
+    margin-top: 24px;
+}
+
+.fotos-item {
+    flex: 0 0 calc(33.33% - 10px); 
+    box-sizing: border-box;
+}
+
+.fotos-item img{
+    width: 100%; 
+    height: auto;
+    border-radius: 8px; 
+}
+
+#contact {
+    width: 100%;
+    height: 100%;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+#contatos {
+    display: flex;
+    gap: 10px; 
+    max-width: 100%;
+    justify-content: center; 
+    margin-top: 24px;
+}
+
+/* Estilo para o formulário */
+form {
+    max-width: 600px; /* Define uma largura máxima para o formulário */
+    margin: 0 auto; /* Centraliza o formulário na página */
+    padding: 20px; /* Adiciona um pouco de espaço interno */
+    background-color: #f9f9f9; /* Cor de fundo suave */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave ao redor */
+    font-family: Arial, sans-serif; /* Define a fonte */
+}
+
+/* Estilo para cada campo de input */
+form input, form textarea {
+    width: 100%; /* Faz com que o campo ocupe toda a largura */
+    padding: 12px; /* Espaçamento interno nos campos */
+    margin-bottom: 15px; /* Espaçamento entre os campos */
+    border: 1px solid #ccc; /* Borda fina */
+    border-radius: 4px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+/* Estilo para o textarea */
+form textarea {
+    resize: vertical; /* Permite redimensionar o campo verticalmente */
+    height: 120px; /* Altura do campo de mensagem */
+}
+
+/* Estilo para o botão */
+form button {
+    width: 100%; /* O botão ocupa toda a largura */
+    padding: 12px; /* Espaçamento interno */
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda padrão */
+    border-radius: 4px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Altera o cursor para pointer */
+    transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+}
+
+/* Efeito hover no botão */
+form button:hover {
+    background-color: #45a049; /* Cor de fundo mais escura ao passar o mouse */
+}
+
+/* Estilo para o contêiner com as informações */
+#information {
+    background-color: #f9f9f9; /* Cor de fundo suave */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    max-width: 500px; /* Largura máxima */
+    margin-left: 20px; /* Espaçamento à esquerda para afastar do formulário */
+}
+
+/* Estilo para cada linha de informação */
+#information p {
+    font-size: 16px; /* Tamanho da fonte */
+    margin-bottom: 10px; /* Espaçamento entre as linhas */
+}
+
+#information b {
+    font-weight: bold; /* Deixa o texto do <b> em negrito */
+    color: #4CAF50; /* Cor verde para destacar o título de cada informação */
+}
+
+/* Estilo para o layout geral (formulário + informações) */
+section {
+    display: flex; /* Alinha o formulário e as informações lado a lado */
+    justify-content: space-between; /* Espaço entre os dois elementos */
+    gap: 20px; /* Espaço entre o formulário e a seção de informações */
+    flex-wrap: wrap; /* Permite que a seção quebre em telas menores */
+    padding: 20px;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    section {
+        flex-direction: column; /* Organiza em coluna para telas pequenas */
+        align-items: center; /* Centraliza os itens */
+    }
+    #information {
+        margin-left: 0; /* Remove o afastamento à esquerda quando estiver em coluna */
+        max-width: 100%; /* Faz com que o bloco de informações ocupe toda a largura disponível */
+    }
+}
+

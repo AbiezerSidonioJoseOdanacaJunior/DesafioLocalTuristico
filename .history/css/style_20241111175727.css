@@ -64,7 +64,7 @@ ul li a {
 #image-history {
     flex: 0 0 40%; /* Ocupa 25% da largura */
     padding: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #efeeeb;
 }
 
 #image-history img {
@@ -110,79 +110,5 @@ ul li a {
     height: 100%;
     padding: 24px;
     box-sizing: border-box;
-}
-
-#contatos {
-    display: flex;
-    gap: 10px; 
-    max-width: 100%;
-    justify-content: center; 
-    margin-top: 24px;
-}
-
-form {
-    max-width: 600px; 
-    margin: 0 auto; 
-    padding: 20px; 
-    background-color: #f9f9f9; 
-    border-radius: 8px; 
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
-    font-family: Arial, sans-serif; 
-}
-
-
-form input, form textarea {
-    width: 100%; 
-    padding: 12px; 
-    margin-bottom: 15px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    font-size: 16px; 
-}
-
-/* Estilo para o textarea */
-form textarea {
-    resize: vertical;
-    height: 120px;
-}
-
-
-form button {
-    width: 100%; 
-    padding: 12px; 
-    background-color: #4CAF50; 
-    color: white;
-    border: none;
-    border-radius: 4px; 
-    font-size: 16px; 
-    cursor: pointer; 
-    transition: background-color 0.3s ease; 
-}
-
-form button:hover {
-    background-color: #45a049; 
-}
-
-
-#information {
-    background-color: #f9f9f9; 
-    padding: 20px; 
-    border-radius: 8px; 
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
-    font-family: Arial, sans-serif; 
-    max-width: 500px; 
-    margin-left: 20px; /
-}
-
-
-#information p {
-    font-size: 16px; 
-    margin-bottom: 10px; 
-}
-
-#information b {
-    font-weight: bold; 
-    color: #4CAF50; 
-    line-height: 24px;
 }
 
