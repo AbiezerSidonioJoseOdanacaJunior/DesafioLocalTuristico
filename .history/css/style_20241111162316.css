@@ -51,7 +51,6 @@ ul li a {
     width: 100%;
     max-width: 100vw; 
     overflow-x: hidden;;
-    padding: 24px;
 }
 
 #text-history {
@@ -64,15 +63,13 @@ ul li a {
 #image-history {
     flex: 0 0 40%; /* Ocupa 25% da largura */
     padding: 10px;
-    background-color: #efeeeb;
+    border: #19375c 1px solid;
 }
 
 #image-history img {
     max-width: 100%;
     height: auto;
-    padding: 16px;
 }
-#image-history p{
+#image-history p {
     line-height: 32px;
-    padding-left: 16px;
 }

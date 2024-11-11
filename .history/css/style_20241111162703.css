@@ -63,16 +63,14 @@ ul li a {
 
 #image-history {
     flex: 0 0 40%; /* Ocupa 25% da largura */
-    padding: 10px;
+    padding: 16px;
     background-color: #efeeeb;
 }
 
 #image-history img {
     max-width: 100%;
     height: auto;
-    padding: 16px;
 }
-#image-history p{
+#image-history p {
     line-height: 32px;
-    padding-left: 16px;
 }
