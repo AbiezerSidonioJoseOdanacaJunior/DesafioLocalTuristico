@@ -87,21 +87,21 @@ ul li a {
 
 #fotos {
     display: flex;
-    flex-wrap: wrap; 
-    gap: 10px; 
-    max-width: 100%;
-    justify-content: center; 
-    margin-top: 24px;
+    flex-wrap: wrap; /* Permite que os itens quebrem para novas linhas */
+    gap: 10px; /* Espaço entre os itens */
+    max-width: 100%; /* Ocupa toda a largura da tela */
+    justify-content: center; /* Centraliza a galeria */
+    margin-top: 16px;
 }
 
 .fotos-item {
-    flex: 0 0 calc(33.33% - 10px); 
-    box-sizing: border-box;
+    flex: 0 0 calc(33.33% - 10px); /* Cada item ocupa aproximadamente 1/3 da linha */
+    box-sizing: border-box; /* Inclui padding e borda na largura total */
 }
 
 .fotos-item img{
-    width: 100%; 
+    width: 100%; /* Faz a imagem ocupar toda a largura do contêiner */
     height: auto;
-    border-radius: 8px; 
+    border-radius: 8px; /* Opcional: adiciona bordas arredondadas */
 }
 

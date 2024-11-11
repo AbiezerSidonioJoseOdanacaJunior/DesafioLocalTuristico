@@ -77,31 +77,39 @@ ul li a {
     padding-left: 16px;
 }
 
-#gallery{
-    width: 100%;
-    height: 100%;
-    padding: 24px;
-    box-sizing: border-box;
-
+#gallery {
+    max-width: 1000px; /* Define uma largura máxima para centralizar o conteúdo */
+    margin: 0 auto; /* Centraliza a galeria na página */
+    text-align: center;
 }
 
-#fotos {
-    display: flex;
-    flex-wrap: wrap; 
-    gap: 10px; 
-    max-width: 100%;
-    justify-content: center; 
-    margin-top: 24px;
+#gallery h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
-.fotos-item {
-    flex: 0 0 calc(33.33% - 10px); 
-    box-sizing: border-box;
+#gallery hr {
+    margin: 10px 0 20px;
+    border: none;
+    border-top: 2px solid #ddd;
 }
 
-.fotos-item img{
-    width: 100%; 
+#gallery .fotos-item {
+    flex: 0 0 calc(33.33% - 10px); /* Cada item ocupa aproximadamente 1/3 da linha */
+    margin-bottom: 10px;
+}
+
+#gallery img {
+    width: 100%; /* Faz a imagem ocupar toda a largura do contêiner */
     height: auto;
-    border-radius: 8px; 
+    border-radius: 8px; /* Opcional: bordas arredondadas */
 }
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap; /* Permite que as imagens quebrem para novas linhas */
+    gap: 10px; /* Espaço entre as imagens */
+    justify-content: center; /* Centraliza as colunas na galeria */
+}
+
 

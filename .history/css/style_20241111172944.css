@@ -100,8 +100,8 @@ ul li a {
 }
 
 .fotos-item img{
-    width: 100%; 
+    width: 100%; /* Faz a imagem ocupar toda a largura do contêiner */
     height: auto;
-    border-radius: 8px; 
+    border-radius: 8px; /* Opcional: adiciona bordas arredondadas */
 }
 
